@@ -8,5 +8,11 @@
 
 ### 示例：
 ```python
-flask-sqlacodegen "mysql+pymysql://root:passport@127.0.0.1/food_db" --tables user --outfile "common/models/User.py"  --flask
+flask-sqlacodegen "mysql+pymysql://root:passport@127.0.0.1/food_db" \
+--tables user \
+--outfile \
+"common/models/User.py"  --flask \
 ```
+
+-----
+
